@@ -29,6 +29,7 @@ print('A nota do aluno é igual {}'.format(media))
 print('Escreva aprovado se {} for maior que {} e reprovado se {} menor que {}'.format(ap,total,rp,total))
 
 n3 = int(input('Digite um valor: '))
+
 t1 = n3 * 1 
 t2 = n3 * 2
 t3 = n3 * 3
@@ -40,13 +41,19 @@ t8 = n3 * 8
 t9 = n3 * 9
 t10 = n3 * 10 
 
-print(f'{n3} x 1 =', t1)
-print(n3 * 2)
-print(n3 * 3)
-print(n3 * 4)
-print(n3 * 5)
-print(n3 * 6)
-print(n3 * 7)
-print(n3 * 8)
-print(n3 * 9)
-print(n3 * 10)
+print(f'{n3} x 1 =',t1)
+print(f'{n3} x 2 =',t2)
+print(f'{n3} x 3 =',t3)
+print(f'{n3} x 4 =',t4)
+print(f'{n3} x 5 =',t5)
+print(f'{n3} x 6 =',t6)
+print(f'{n3} x 7 =',t7)
+print(f'{n3} x 8 =',t8)
+print(f'{n3} x 9 =',t9)
+print(f'{n3} x 10 =',t10)
+
+m = int(input('digite um valor: '))
+cen = m * 100
+mili = m * 1000
+print('{} metros convertidos para centimetros da {}'.format(m,cen))
+print('{} metros convertidos por milimetros da {}'.format(m,mili))
